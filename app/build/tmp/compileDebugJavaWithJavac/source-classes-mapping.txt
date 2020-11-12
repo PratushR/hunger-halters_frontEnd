@@ -1,0 +1,2 @@
+com/example/hungerhalter/BuildConfig.java
+ com.example.hungerhalter.BuildConfig

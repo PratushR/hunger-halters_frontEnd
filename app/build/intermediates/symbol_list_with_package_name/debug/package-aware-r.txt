@@ -1513,6 +1513,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id sw1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1548,6 +1549,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txt1
 id txtAddress
 id txtDish
 id txtDish2

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pasta"
+            android:id="@+id/imgItem"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Sauce Pasta"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtDish"
+            android:layout_toRightOf="@id/imgItem"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 180"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtPrice"
+            android:layout_toRightOf="@id/imgItem"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="z-27 Cafe and Restaurant"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtRestaurant"
+            android:layout_toRightOf="@id/imgItem"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item1">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pasta"
+            android:id="@+id/imgItem2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Sauce Pasta"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtDish2"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 180"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtPrice2"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="z-27 Cafe and Restaurant"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtRestaurant2"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+</RelativeLayout>
